@@ -2,14 +2,14 @@
 ## Project Overview
 Developed a machine learning model to automate the loan eligibility process based on customer details provided in online application forms.
 
-## 📊 Key Results
+##  Key Results
 * **Accuracy:** 83.46% (5-Fold Cross-Validation)
 * **Top Predictors:** Credit History, Applicant Income (Log), and Loan Amount.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python
 * **Libraries:** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib.
 * **Model:** Random Forest Classifier with Log-Transformation for skewed data.
 
-## 📈 Key Insights
+## Key Insights
 Through Exploratory Data Analysis (EDA) and Feature Importance ranking, we found that Credit history accounts for nearly 25% of the model's decision-making power. Log-transforming the income data significantly reduced noise and improved model stability.
